@@ -68,7 +68,7 @@ const showWinner = (winner) => {
 }
 
 const showDraw = () => {
-    msg.innerText = "Game is Draw!";
+    msg.innerText = "It's a draw! No winner this time.";
     msgContainer.classList.remove("hide");
     disableBoxes();
 }
