@@ -85,6 +85,7 @@ const checkWinner = () => {
                 showWinner(pos1Val);
                 game.classList.remove("dabba");
                 game.classList.add("popup");
+                return;
             }
                 
                 }}
@@ -92,6 +93,7 @@ const checkWinner = () => {
                 showDraw();
                 game.classList.remove("dabba");
                 game.classList.add("popup");
+                
     }
 }
 
